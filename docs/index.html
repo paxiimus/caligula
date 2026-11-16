@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Caligula: Privacy and Terms</title>
+<meta name="description" content="Privacy policy and terms of use for Caligula, an offline calorie counter.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>
+  @font-face { font-family: Italiana; src: url(fonts/Italiana-Regular.ttf); }
+  @font-face { font-family: Instrument Sans; src: url(fonts/InstrumentSans-Regular.ttf); }
+  @font-face { font-family: Instrument Sans; font-weight: 700; src: url(fonts/InstrumentSans-Bold.ttf); }
+  :root { --bg: #f6f3ef; --card: #fff; --text: #1c1a17; --muted: #716b63; --accent: #6b1d4a; --line: #e3ded6; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #121110; --card: #1d1b19; --text: #f2eee8; --muted: #9d968c; --accent: #c45a95; --line: #2f2c28; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 "Instrument Sans", -apple-system, system-ui, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 80px; }
+  header { display: flex; align-items: center; gap: 14px; }
+  header img { width: 64px; height: 64px; border-radius: 15px; }
+  h1 { font: 400 40px/1.1 Italiana, serif; letter-spacing: 0.18em; color: var(--accent); margin: 0; }
+  h2 { font-size: 24px; margin: 48px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+  h3 { font-size: 18px; margin: 28px 0 4px; }
+  p, li { margin: 8px 0; }
+  .muted { color: var(--muted); }
+  .lead { font-size: 20px; background: var(--card); border-left: 4px solid var(--accent); padding: 16px 20px; border-radius: 8px; }
+  a { color: var(--accent); }
+  nav a { margin-right: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <header><img src="favicon.svg" alt=""><h1>CALIGULA</h1></header>
+  <p class="muted">An offline calorie counter. Effective 16 November 2026.</p>
+  <nav><a href="#privacy">Privacy policy</a><a href="#terms">Terms of use</a></nav>
+
+  <h2 id="privacy">Privacy policy</h2>
+  <p class="lead">Caligula collects nothing. It has no accounts, no ads, no analytics and no tracking, and it makes no network requests.</p>
+
+  <h3>What the app stores</h3>
+  <p>Everything you enter (calories, foods, weights, settings and progress photos) is stored only on your device, inside the app's private storage. We never receive it, so we cannot see, sell or share it.</p>
+
+  <h3>Network access</h3>
+  <p>The Android release is built without the internet permission, so it cannot connect to the internet. The app contains no code that sends data anywhere.</p>
+
+  <h3>Camera and photos</h3>
+  <p>Caligula asks for camera access only when you choose to take a progress photo, and opens your photo library only when you choose to pick one. Photos are copied into the app's private storage and are not added to your gallery unless you share or save one yourself.</p>
+
+  <h3>Backups and exports</h3>
+  <p>Android system backup is turned off for Caligula, so your data is not copied to cloud backups. On iOS, device backups are controlled by you in your system settings. When you choose Export, the app creates a file and hands it to your device's share sheet; where that file goes is your choice.</p>
+
+  <h3>Deleting your data</h3>
+  <p>Use Settings, Delete all data, or uninstall the app. Both remove everything the app holds on the device.</p>
+
+  <h3>Children</h3>
+  <p>Caligula is not directed at children and collects no data from anyone.</p>
+
+  <h3>Changes</h3>
+  <p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
+
+  <h2 id="terms">Terms of use</h2>
+
+  <h3>The software</h3>
+  <p>Caligula is free, open-source software released under the MIT licence. The source code is public on GitHub. The licence governs your use of the code; these terms cover your use of the app.</p>
+
+  <h3>Not medical advice</h3>
+  <p>Calorie counts, food values, weight trends and projected dates are estimates for general information only. They are not medical, dietary or health advice. Talk to a doctor or registered dietitian before making significant changes to your diet or weight, especially if you have a health condition, are pregnant, or have a history of disordered eating.</p>
+
+  <h3>No warranty</h3>
+  <p>The app is provided "as is", without warranty of any kind. To the extent the law allows, we are not liable for any loss arising from your use of it, including loss of data. You are responsible for exporting your data if you want a copy. Nothing in these terms limits liability that cannot be limited by law.</p>
+
+  <h3>Food data</h3>
+  <p>Reference food values are derived from McCance and Widdowson's Composition of Foods Integrated Dataset. Contains public sector information licensed under the Open Government Licence v3.0.</p>
+
+  <h3>Governing law</h3>
+  <p>These terms are governed by the law of England and Wales.</p>
+
+  <h2 id="contact">Contact</h2>
+  <p>Questions about this policy or these terms: <a href="mailto:contact@paxiimus.com">contact@paxiimus.com</a></p>
+</main>
+</body>
+</html>
